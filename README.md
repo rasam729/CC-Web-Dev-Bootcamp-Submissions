@@ -1,161 +1,32 @@
-<div align="center">
+# TickTask - Card-Based To-Do Manager
 
-# 🚀 CC Web Dev Bootcamp – Submissions
+TickTask is a lightweight, interactive task management application built using the core principles of **Web Fundamentals** (HTML, CSS, and JavaScript). The app allows users to create tasks that are displayed as distinct "information cards" with dynamic styling.
 
-Welcome! This repository is where you will submit your assignments for the **Coding Club Web Development Bootcamp**.
-**Build consistently. Learn deeply. Improve every time.**
+## 🚀 Features
+- **Dynamic Task Creation**: Add tasks using a simple input and "+" button.
+- **Card Representation**: Every task is generated as a separate card with a unique background color to distinguish information.
+- **Interactive Deletion**: Each task card includes a delete button to remove it from the list instantly.
+- **Responsive Design**: Uses modern layout techniques to ensure a clean UI.
 
-</div>
+## 🛠️ Tools & Tags Used
 
----
+### 1. HTML (Structure)
+- **Semantic Tags**: Used `<header>` and `<main>` for better document structure and accessibility
+- **Form Elements**: Utilized `<input type="text">` for data entry and `<button>` for user actions
+- **Lists**: Employed `<ul>` and `<li>` to manage the dynamic collection of tasks
 
-## 📂 Folder Structure (STRICT)
+### 2. CSS (Styling)
+- **Flexbox**: Applied `display: flex` and `justify-content` to align the input bar and card contents
+- **Box Model**: Used `padding`, `margin`, and `border-radius` to create the "card" aesthetic
+- **Interactivity**: Implemented `:hover` pseudo-classes to provide visual feedback on buttons
+- **Transitions**: Added `transition` properties for smooth visual scaling and color changes
 
-Follow this exactly:
+### 3. JavaScript (Logic)
+- **DOM Manipulation**: Used `querySelector` to target elements and `textContent` to safely inject task data.
+- **Event Listeners**: Implemented `addEventListener` to handle 'click' and 'submit' events without reloading the page.
+- **Dynamic UI Updates**: 
+    - `document.createElement`: To build new cards in memory.
+    - `appendChild`: To attach cards to the live task board.
+    - `element.remove()`: To delete specific tasks from the DOM.
+- **Modern Syntax**: Used `const`, `let`, and **Arrow Functions** (`=>`) for clean, block-scoped logic.
 
-```
-YourName_USN/
-│
-├── Assignment_1/
-│   └── (files)
-│
-├── Assignment_2/
-│   └── (files)
-│
-└── ...
-```
-
-### 📌 Naming Convention
-
-* Format:
-
-  ```
-  FullName_USN
-  ```
-* Example:
-
-  ```
-  Varun_Aditya_1RV24IS143
-  ```
-
-⚠️ Incorrect naming or structure may lead to your submission being ignored.
-
----
-
-## 📝 What to Submit
-
-For each assignment:
-
-* Create a new folder: `Assignment_X`
-* Include all required files
-* Ensure your project:
-
-  * Runs without errors
-  * Is neatly organized
-  * Uses meaningful file names
-
-(Optional but recommended)
-
-* Add a `README.md` explaining:
-
-  * What you built
-  * How to run it
-
----
-
-## 🔀 Submission Workflow (Do This Every Time)
-
-### 1. Fork the Repository
-
-👉 https://github.com/varunaditya27/CC-Web-Dev-Bootcamp-Submissions
-Click **Fork**
-
----
-
-### 2. Clone Your Fork
-
-```
-git clone https://github.com/<your-username>/CC-Web-Dev-Bootcamp-Submissions.git
-cd CC-Web-Dev-Bootcamp-Submissions
-```
-
----
-
-### 3. (First Time Only) Create Your Folder
-
-```
-mkdir YourName_USN
-```
-
----
-
-### 4. Add Your Assignment
-
-```
-YourName_USN/Assignment_X/
-```
-
----
-
-### 5. Stage, Commit, Push
-
-```
-git add .
-git commit -m "Assignment_X - YourName"
-git push origin main
-```
-
----
-
-### 6. Create Pull Request (PR)
-
-* Go to your fork on GitHub
-* Click **Compare & Pull Request**
-* Submit the PR
-
----
-
-## 🔁 Updating Your Fork (IMPORTANT)
-
-Before every new assignment, sync your repo:
-
-```
-git remote add upstream https://github.com/varunaditya27/CC-Web-Dev-Bootcamp-Submissions.git
-git pull upstream main
-git push origin main
-```
-
----
-
-## ⚠️ Rules
-
-* ❌ Do NOT touch other students' folders
-* ❌ Do NOT rename/delete existing content
-* ❌ Do NOT push directly to main repo
-* ✅ Always submit via PR
-* ✅ Follow structure strictly
-
----
-
-## 💡 Tips
-
-* Start early — rushed work shows
-* If something breaks, debug it (that’s where real learning happens)
-* Don’t just copy — understand what you write
-
----
-
-<div align="center">
-
-## 🎯 Final Note
-
-Don’t treat this like a checklist.
-Treat it like your **first step into building real-world projects**.
-
-**Consistency > perfection. Keep showing up.**
-
----
-
-Happy coding 💻🔥
-
-</div>
