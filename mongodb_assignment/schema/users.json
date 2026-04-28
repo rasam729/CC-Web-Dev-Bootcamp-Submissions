@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "user_101",
+    "name": "Arjun Kumar",
+    "email": "arjun.k@pes.edu",
+    "skills": ["React", "JavaScript", "CSS"],
+    "bookmarked_posts": ["opp_501"]
+  },
+  {
+    "_id": "user_102",
+    "name": "Sneha Rao",
+    "email": "sneha.r@pes.edu",
+    "skills": ["Python", "TensorFlow", "FastAPI"],
+    "bookmarked_posts": ["opp_502"]
+  },
+  {
+    "_id": "user_103",
+    "name": "Karthik S.",
+    "email": "karthik.s@pes.edu",
+    "skills": ["Figma", "UI Design", "React"],
+    "bookmarked_posts": []
+  }
+]

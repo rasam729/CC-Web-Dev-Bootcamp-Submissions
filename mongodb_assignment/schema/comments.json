@@ -1,0 +1,16 @@
+[
+  {
+    "_id": "comm_901",
+    "post_id": "opp_501",
+    "user_id": "user_102",
+    "text": "Is this a paid internship?",
+    "timestamp": "2026-04-28T11:15:00Z"
+  },
+  {
+    "_id": "comm_902",
+    "post_id": "opp_501",
+    "user_id": "user_101",
+    "text": "Yes, a monthly stipend is provided.",
+    "timestamp": "2026-04-28T12:00:00Z"
+  }
+]

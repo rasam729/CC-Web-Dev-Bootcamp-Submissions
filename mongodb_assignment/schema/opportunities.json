@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "opp_501",
+    "title": "Frontend Developer Intern",
+    "type": "internship",
+    "creator_id": "user_101",
+    "required_skills": ["React", "JavaScript"],
+    "deadline": "2026-05-10T23:59:59Z"
+  },
+  {
+    "_id": "opp_502",
+    "title": "AI Innovation Hackathon",
+    "type": "hackathon",
+    "creator_id": "dept_admin",
+    "required_skills": ["Python", "Machine Learning"],
+    "deadline": "2026-06-01T10:00:00Z"
+  },
+  {
+    "_id": "opp_503",
+    "title": "Product Design Workshop",
+    "type": "event",
+    "creator_id": "user_103",
+    "required_skills": ["Figma"],
+    "deadline": "2026-05-15T18:00:00Z"
+  }
+]
